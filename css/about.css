@@ -59,19 +59,8 @@
         justify-content: space-between;
     }
 
-    /* Styling bag icon */
-    #ib {
-        text-decoration: none;
-        border: none;
-        font-size: 30px;
-        color: black;
-        background: none;
-        margin-right: 25px;
-    }
-
-    /* End of bag icon */
-
-    .login {
+     /* Styling Log in button */
+     .login {
         background-color: rgb(218, 207, 207);
         display: inline-block;
         font-size: 10px;
@@ -81,7 +70,17 @@
         text-align: center;
         width: 100px;
         text-decoration: none;
-        margin: auto;
+        margin-left: 248px;
+    }
+
+    /* Styling bag icon */
+    #ib {
+        text-decoration: none;
+        border: none;
+        font-size: 30px;
+        color: black;
+        background: none;
+        margin-right: 25px;
     }
 
     .abtimg {

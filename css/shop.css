@@ -51,17 +51,6 @@
         width: 150px;
     }
 
-    /* Styling bag icon */
-    #ib {
-        text-decoration: none;
-        border: none;
-        font-size: 30px;
-        color: black;
-        background: none;
-    }
-
-    /* End of bag icon */
-
     #lgb {
         display: flex;
         flex-direction: row;
@@ -70,6 +59,7 @@
         justify-content: space-between;
     }
 
+    /* Styling Log in button */
     .login {
         background-color: rgb(218, 207, 207);
         display: inline-block;
@@ -80,7 +70,21 @@
         text-align: center;
         width: 100px;
         text-decoration: none;
-        margin: auto;
+        margin-left: 248px;
+    }
+
+    /* Styling bag icon */
+    #ib {
+        text-decoration: none;
+        border: none;
+        font-size: 30px;
+        color: black;
+        background: none;
+        margin-right: 25px;
+    }
+
+    .abtimg {
+        width: 50%;
     }
 
     h1 {
