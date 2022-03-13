@@ -47,6 +47,27 @@
         background-color: #fcbaba;
     }
 
+    /* Styling bag icon */
+    #ib {
+        text-decoration: none;
+        border: none;
+        font-size: 30px;
+        color: black;
+        background: none;
+        margin-right: 25px;
+    }
+
+    /* End styling navigation */
+
+    /* Styling bag inside */
+    #ib1 {
+        text-decoration: none;
+        border: none;
+        font-size: 30px;
+        color: black;
+        background: none;
+    }
+
     .logo {
         width: 150px;
     }
@@ -73,20 +94,6 @@
         margin-left: 248px;
     }
 
-    /* Styling bag icon */
-    #ib {
-        text-decoration: none;
-        border: none;
-        font-size: 30px;
-        color: black;
-        background: none;
-        margin-right: 25px;
-    }
-
-    .abtimg {
-        width: 50%;
-    }
-
     h1 {
         text-align: center;
         font-size: 40px;
@@ -103,32 +110,28 @@
     }
 
     p {
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Maven Pro', sans-serif;
         text-align: center;
-        margin: 20px 30px 20px 30px;
     }
 
-    .ab1 {
+    /* Styling images */
+    .bag {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productlist {
         display: flex;
         flex-direction: column;
         justify-self: center;
         align-items: center;
     }
 
-    .ab2 {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-        align-items: center;
-    }
-
-    .mapouter {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
+    /* Styling footer */
     footer p {
         font-size: 15px;
         text-align: center;
@@ -157,13 +160,5 @@
         background-color: #fcbaba;
         padding: 10px;
         margin-top: 30px;
-    }
-
-    #ag {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 }
