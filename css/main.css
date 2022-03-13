@@ -361,13 +361,11 @@ nav li {
     font-size: 20px;
     text-align: center;
     font-family:'Maven Pro', sans-serif;
-    display: flex;
-    flex-direction: row;
 }
 
-topnav li{
+nav li a {
     background-color: none;
-    color:none;
+    color:ưhite;
 }
 
 
