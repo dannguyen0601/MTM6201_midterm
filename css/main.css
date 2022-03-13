@@ -99,7 +99,6 @@ table {
     }
 
     nav li a {
-        color: white;
         text-decoration: none;
         padding: 12px 14px;
         text-align: center;
@@ -362,13 +361,21 @@ nav li {
     font-size: 20px;
     text-align: center;
     font-family:'Maven Pro', sans-serif;
-   display: inline;
+    display: flex;
+    flex-direction: row;
 }
 
-#topnav li {
+topnav li{
+    background-color: none;
+    color:none;
+}
+
+
+.topnav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 8px;
 }
 }
