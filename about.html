@@ -5,39 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Midterm</Title>
     <!--Google Fonts-->
     <!--Paragraph fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;700;800&display=swap">
     <!--Headers fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,700;1,500&family=Maven+Pro:wght@500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,700;1,500&family=Maven+Pro:wght@500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
-    <main>
-        <header>
-            <!--Navigation bar-->
+    <header>
+        <!--Navigation bar-->
+        <div id="lgb">
+            <a href="index.html" class="current"><img class="logo" src="images/Logo icon/logo black.png" alt="logo"></a>
             <nav id="topnav">
-                <div id="lgb">
+                <ul>
                     <li>
-                        <a href="index.html" class="current"><img class="logo" src="images/Logo icon/logo black.png"
-                                alt="logo"></a>
+                        <a href="index./html" class="current">Home</a>
                     </li>
-                    <button class="login" type="button">Log in</button>
-                    <button id="ib" type="button"><i class="fa fa-shopping-bag"></i></button>
-                </div>
+                    <li>
+                        <a href="about.html" class="about">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="shop">Shop</a>
+                    </li>
+                </ul>
+                <button class="login" type="button">Log in</button>
+                <i class="fa fa-shopping-bag1"></i>
             </nav>
-        </header>
+        </div>
+    </header>
+    <main>
         <h1>ABOUT US</h1>
         <div class="ab1">
-            <img class="abtimg" src="images/abt 480x480.jpg" alt="About us photo" class="abpt1">
+            <div id="ab">
+                <img class="abtimg" src="images/abt 480x480.jpg" alt="About us photo">
+            </div>
             <div class="ab1p">
                 <h2>Magnificent Things Start Humbly</h2>
                 <p>That was 2015, we ‑ a pack of daring and aspiring youngsters who were nurturing our deep passion and
@@ -49,7 +59,9 @@
             </div>
         </div>
         <div class="ab2">
-            <img class="abtimg" src="images/About 2 480x480.jpg" alt="About us photo" class="abpt2">
+            <div id="abb">
+                <img class="abtimg2" src="images/About 2 480x480.jpg" alt="About us photo">
+            </div>
             <div class="ab2p">
                 <h2>The Name? NGAOS, Purry NGAOS!</h2>
                 <p>You may find it unusual, but it IS the felines that have inspired us. In Vietnamese, “ngao” is one of
@@ -58,7 +70,8 @@
                     animal on the world just by doing what they want. Additionally, “ngaos”, is also a typo of the word
                     “ngáo” which means innocent and care-free. Hence, we took NGAOS as our name as it echoes our core
                     values - to celebrate feminity and empower our muses to be confident in their own uniqueness. It is
-                    always great to be who we truly are, isn’t it?</p>
+                    always great to be who we truly are, isn’t it?
+                </p>
             </div>
         </div>
         <div class="ab3">
@@ -71,29 +84,17 @@
                 every product, but it is your heart, your mind, and your soul that make the bags outstanding. You are
                 true artists in your own right.</p>
         </div>
-        <div class="address">
-            <div class="addp">
+        <div id="address">
+            <div class="adp">
                 <h2>WHERE TO FIND US</h2>
                 <p>70 Pham Ngoc Thach street, Ha Noi</p>
                 <p>Hotline: 0354728479 / 0372194396</p>
             </div>
             <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=70%20Pham%20Ngoc%20Thach%20street,%20Ha%20Noi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                        href="https://www.whatismyip-address.com"></a><br>
-                    <a href="https://www.embedgooglemap.net">google map for websites</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 500px;
-                            width: 600px;
-                        }
-                    </style>
-                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4371153154393!2d105.84614031473124!3d21.015188986005736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8c4123aa39%3A0x9f5692f66372d790!2zNzUgUC4gVHXhu4cgVMSpbmgsIEzDqiDEkOG6oWkgSMOgbmgsIEhhaSBCw6AgVHLGsG5nLCBIw6AgTuG7mWksIFZpZXRuYW0!5e0!3m2!1sen!2sca!4v1647349810996!5m2!1sen!2sca"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-        </div>
         </div>
     </main>
     <footer>
@@ -102,14 +103,12 @@
                 <h3>LET'S KEEP IN TOUCH</h3>
             </div>
             <div id="sicon">
-                <li><a href="https://www.facebook.com/ngaos.official" target="_blank"><i class="fa fa-facebook-official"
-                            aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/ngaos.official/" target="_blank"><i class="fa fa-instagram"
-                            aria-hidden="true"></i></a></li>
-                <li><a href="https://www.pinterest.ca/ngaosofficial/_created/" target="_blank"><i
-                            class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:ngaosgroup@gmail.com" target="_blank"><i class="fa fa-envelope"
-                            aria-hidden="true"></i></a></li>
+                <a href="https://www.facebook.com/ngaos.official" target="_blank"><i
+                        class="fa fa-facebook-official"></i></a>
+                <a href="https://www.instagram.com/ngaos.official/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.pinterest.ca/ngaosofficial/_created/" target="_blank"><i
+                        class="fa fa-pinterest-p"></i></a>
+                <a href="mailto:ngaosgroup@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
             </div>
             <p>&copy;Copyright Ngaos Official</p>
         </div>
