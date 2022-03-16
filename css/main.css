@@ -437,13 +437,6 @@ table {
         text-align: center;
     }
 
-    #lookbook {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
     #sicon a {
         color: black;
         font-size: 30px;
@@ -462,6 +455,15 @@ table {
     }
 
     /* Styling Lookbook */
+    .lookbook {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        color:black;
+        text-decoration: none;
+    }
+
     #lookbook {
         background-image: url(../images/Lookbookmobile.jpg);
         display: flex;
