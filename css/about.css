@@ -207,7 +207,9 @@ table {
 
     .logo {
         width: 40%;
-        margin: 9px;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 10px;
     }
 
     #lgb {
@@ -336,6 +338,8 @@ table {
         border: none;
         background: none;
         color: black;
+        font-size: 25px;
+        margin-right: 25px;
     }
 }
 
@@ -347,7 +351,7 @@ table {
 
     .logo {
         width: 40%;
-        margin: 14px;
+        margin-left: 25px;
     }
 
     nav li {
